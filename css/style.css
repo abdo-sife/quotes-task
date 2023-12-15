@@ -1,0 +1,33 @@
+:root{
+    --mainfont:'Satisfy', cursive;
+    --defaultfont:'Architects Daughter', cursive;
+}
+body{
+    min-height:100vh ;
+background-image: url(../img/2023-12-15.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family:var(--mainfont) ;
+
+}
+p{
+font-family:var(--defaultfont) ;
+}
+#Btn{
+    background-color: white;
+    font-family: var(--defaultfont);
+    border-radius: 25px;
+
+}
+#Btn:hover{
+    background-color: rgb(195, 53, 53);
+}
+.boton {
+    border: 1px solid white;
+    border-radius: 25px;
+    
+}
